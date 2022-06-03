@@ -26,7 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'news',
-    'bootstrap4'
+    'bootstrap4',
+    'tinymce',
 ]
 
 MIDDLEWARE = [
@@ -38,11 +39,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-EMAIL_USE_TLS = config('EMAIL_USE_TLS')
-EMAIL_HOST = config('EMAIL_HOST')
-EMAIL_PORT = config('EMAIL_PORT')
-EMAIL_HOST_USER = config('agneskaswii700@gmail.com')
-EMAIL_HOST_PASSWORD = config('Hanselagnes1')
+# EMAIL_USE_TLS = config('EMAIL_USE_TLS')
+# EMAIL_HOST = config('EMAIL_HOST')
+# EMAIL_PORT = config('EMAIL_PORT')
+# EMAIL_HOST_USER = config('agneskaswii700@gmail.com')
+# EMAIL_HOST_PASSWORD = config('Hanselagnes1')
 
 
 ROOT_URLCONF = 'tribune.urls'
